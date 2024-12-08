@@ -22,8 +22,22 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+## Crie Arquivo JSON liberado pelas API Google e ative do GOOGLE DRIVE
+## Crie o .env na raiz do projeto e adicione as variaveis com que google forneceu para você
+    const GOOGLE_DRIVE = {
+      type: process.env.GOOGLE_DRIVE_TYPE,
+      project_id: process.env.GOOGLE_DRIVE_PROJECT_ID,
+      private_key_id: process.env.GOOGLE_DRIVE_PRIVATE_KEY_ID,
+      private_key: process.env.GOOGLE_DRIVE_PRIVATE_KEY,
+      client_email: process.env.GOOGLE_DRIVE_CLIENT_EMAIL,
+      client_id: process.env.GOOGLE_DRIVE_CLIENT_ID,
+      auth_uri: process.env.GOOGLE_DRIVE_AUTH_URI,
+      token_uri: process.env.GOOGLE_DRIVE_TOKEN_URI,
+      auth_provider_x509_cert_url: process.env.GOOGLE_DRIVE_AUTH_PROVIDER_CERT_URL,
+      client_x509_cert_url: process.env.GOOGLE_DRIVE_CLIENT_CERT_URL,
+    };
+    
 ## Description
-
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Project setup
